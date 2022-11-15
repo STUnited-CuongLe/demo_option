@@ -1,0 +1,43 @@
+<div class="header">
+  <div class="title">Report</div>
+  <div class="p-fluid grid formgrid">
+    <div class="field col-12 md:col-4">
+      <label for="icon">From</label>
+      <p-calendar
+        [(ngModel)]="date3"
+        [showIcon]="true"
+        inputId="icon"
+      ></p-calendar>
+    </div>
+    <div class="field col-12 md:col-4">
+      <label for="icon">To</label>
+      <p-calendar
+        [(ngModel)]="date3"
+        [showIcon]="true"
+        inputId="icon"
+      ></p-calendar>
+    </div>
+  </div>
+
+  <div class="buttons">
+    <button pButton pRipple type="button" label="Create"></button>
+    <button pButton pRipple type="button" label="Chart"></button>
+    <button pButton pRipple type="button" label="Save"></button>
+    <button pButton pRipple type="button" label="Send"></button>
+  </div>
+  <div class="history">
+    <h5>History</h5>
+    <button pButton pRipple type="button" label="Saved"></button>
+    <button pButton pRipple type="button" label="Received"></button>
+    <button pButton pRipple type="button" label="Sent"></button>
+    <button pButton pRipple type="button" label="..."></button>
+  </div>
+  <div class="search">
+    <div class="col-12 md:col-4">
+        <div class="p-inputgroup">
+            <input type="text" pInputText placeholder="Search">   
+            <button type="button" pButton pRipple icon="pi pi-search" styleClass="p-button-warn"></button>      
+        </div>
+    </div>
+  </div>
+</div>

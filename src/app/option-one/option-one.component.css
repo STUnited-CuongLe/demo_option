@@ -1,0 +1,32 @@
+.header{
+    display: flex;
+    border: 1px solid;
+    padding: 0.5rem;
+}
+.title{
+    width: 5%;
+}
+.formgrid{
+    width: 25%;
+    display: flex;
+    height: 0.5%;
+}
+.field{
+    margin-left: 5px;
+}
+.buttons{
+    width: 28%;
+    padding:  1rem 0.5rem;
+}
+.history{
+    width: 27%;
+    padding:  1rem 0.5rem;
+    display: flex;
+}
+.search{
+    width: 15%;
+    padding:  1rem 0.5rem;
+}
+button{
+    margin: 5px;
+}
